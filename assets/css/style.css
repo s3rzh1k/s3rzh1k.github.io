@@ -46,6 +46,7 @@ hr{
 
 }
 
+
 *,
 *:before,
 *:after {
@@ -613,6 +614,11 @@ h1, h2, h3, h4, h5 {
 .accordion__item {
     border: 1px solid #e5e5e5;
     margin-bottom: 10px;
+    transition: all .2s linear;
+}
+
+.accordion__item.active {
+    transition: all .2s linear;
 }
 
 .accordion__item.active .accordion__content {
@@ -647,6 +653,7 @@ h1, h2, h3, h4, h5 {
     top: 50%;
     right: 20px;
     transform: translateY(-50%) rotate(135deg);
+    transition: all .2s linear;
 }
 
 .accordion__icon {
@@ -666,6 +673,7 @@ h1, h2, h3, h4, h5 {
     font-style: italic;
     color: #999999;
     display: none;
+    transition: all .2s linear;
 }
 .accordion__title {
     color: #333333;
@@ -684,6 +692,22 @@ h1, h2, h3, h4, h5 {
 .reviews__item {
     padding-left: 205px;
     position: relative;
+    display: none;
+}
+
+.reviews__item2 {
+    padding-left: 205px;
+    position: relative;
+    display: none;
+}
+
+
+.reviews__item.active {
+    display: block;
+}
+
+.reviews__item2.active {
+    display: block;
 }
 
 .reviews__item--bigpadding {
@@ -755,7 +779,17 @@ h1, h2, h3, h4, h5 {
     transform: rotate(-45deg);
 }
 
+.reviews__btn--prev2 {
+    left: 0;
+    transform: rotate(-45deg);
+}
+
 .reviews__btn--next {
+    right: 0;
+    transform: rotate(135deg);
+}
+
+.reviews__btn--next2 {
     right: 0;
     transform: rotate(135deg);
 }
@@ -1585,6 +1619,10 @@ h1, h2, h3, h4, h5 {
     }
 
     .reviews__item {
+        padding-left: 0;
+    }
+
+    .reviews__item2 {
         padding-left: 0;
     }
 

@@ -14,6 +14,7 @@
     integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
     crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="assets/js/scriptjq.js"></script>
 </head>
 
 <body>
@@ -206,9 +207,9 @@
                                 <img src="assets/pictures/icons/picture.png" alt="" class="accordion__icon">
                                 <div class="accordion__title">photography</div>
                             </div>
-                            <textarea class="accordion__content">
+                            <div class="accordion__content">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            </textarea>
+                            </div>
                         </div>
                         <div class="accordion__item active">
                             <div class="accordion__header">
@@ -239,13 +240,34 @@
     <div class="section section--gray">
         <div class="container">
             <div class="reviews">
-                <a href="#" class="reviews__btn reviews__btn--prev">Prev</a>
-                <a href="#" class="reviews__btn reviews__btn--next">Next</a>
+                <a href="" class="reviews__btn reviews__btn--prev">Prev</a>
+                <a href="" class="reviews__btn reviews__btn--next">Next</a>
+                <div class="reviews__item active">
+                    <img class="reviews__photo" src="http://placehold.it/145x145" alt="">
+                    <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div>
+                    <div class="reviews__author">Joe Don</div>
+                </div>
                 <div class="reviews__item">
                     <img class="reviews__photo" src="http://placehold.it/145x145" alt="">
                     <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div>
-                    <div class="reviews__author">Jon Doe</div>
+                    <div class="reviews__author">Kira Knightley</div>
                 </div>
+                <div class="reviews__item">
+                    <img class="reviews__photo" src="http://placehold.it/145x145" alt="">
+                    <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div>
+                    <div class="reviews__author">Sasha Simple</div>
+                </div>
+                <div class="reviews__item">
+                    <img class="reviews__photo" src="http://placehold.it/145x145" alt="">
+                    <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div>
+                    <div class="reviews__author">Conor McGregor</div>
+                </div>
+                <div class="reviews__item">
+                    <img class="reviews__photo" src="http://placehold.it/145x145" alt="">
+                    <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div>
+                    <div class="reviews__author">Homer Simpson</div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -454,13 +476,39 @@
     <div class="section">
         <div class="container">
             <div class="reviews">
-                <a href="#" class="reviews__btn reviews__btn--prev">Prev</a>
-                <a href="#" class="reviews__btn reviews__btn--next">Next</a>
-                <div class="reviews__item reviews__item--bigpadding">
+                <a href="#" class="reviews__btn reviews__btn--prev2">Prev</a>
+                <a href="#" class="reviews__btn reviews__btn--next2">Next</a>
+                <div class="reviews__item2 reviews__item--bigpadding active">
                     <img class="reviews__photo reviews__photo--noborder" src="assets/pictures/Joshua.png" alt="">
                     <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div>
-                    <div class="reviews__author">Joshua Earle</div>
+                    <div class="reviews__author">Ashley Bridges</div>
                 </div>
+                <div class="reviews__item2 reviews__item--bigpadding">
+                    <img class="reviews__photo reviews__photo--noborder" src="assets/pictures/Joshua.png" alt="">
+                    <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div>
+                    <div class="reviews__author">Niko Kovacs</div>
+                </div>
+                <div class="reviews__item2 reviews__item--bigpadding">
+                    <img class="reviews__photo reviews__photo--noborder" src="assets/pictures/Joshua.png" alt="">
+                    <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div>
+                    <div class="reviews__author">Eugene Rise</div>
+                </div>
+                <div class="reviews__item2 reviews__item--bigpadding">
+                    <img class="reviews__photo reviews__photo--noborder" src="assets/pictures/Joshua.png" alt="">
+                    <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div>
+                    <div class="reviews__author">Ivan Urgant</div>
+                </div>
+                <div class="reviews__item2 reviews__item--bigpadding">
+                    <img class="reviews__photo reviews__photo--noborder" src="assets/pictures/Joshua.png" alt="">
+                    <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div>
+                    <div class="reviews__author">Bogdan Titomir</div>
+                </div>
+                <div class="reviews__item2 reviews__item--bigpadding">
+                    <img class="reviews__photo reviews__photo--noborder" src="assets/pictures/Joshua.png" alt="">
+                    <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div>
+                    <div class="reviews__author">Vasily Vakulenko</div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -590,8 +638,8 @@
                 </div>
 <!--                /item-->
             </div>
-<!--            /blog-->
         </div>
+<!--            /blog-->
     </section>
     <section class="section section--map">
         <div class="container">
@@ -714,6 +762,5 @@
             </div>
         </div>
     </footer>
-    <script src="assets/js/scriptjq.js"></script>
 </body>
 </html>
